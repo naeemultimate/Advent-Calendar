@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0; /* Want no padding or margin so the image is the whole scroll-timeline-name: */
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.calendar {
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    padding-left: 100px;
+    /* background: grey; */
+}
+
+.mountains-of-christmas-regular {
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h1 {
+    font-family: "Mountains of Christmas";
+    font-size: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+}
+
+.day {
+    background: #044977;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.day:hover {
+    background: #820a1c;
+    cursor: default;
+}
+
+.message {
+    font-size: 20px;
+    color: #c0392b;
+    background: #e8cece;
+    visibility: hidden;
+    padding: 20px;
+    margin-top: 5px;
+}
