@@ -15,7 +15,7 @@ body {
     text-align: center;
     color: white;
     max-width: 600px;
-    padding-left: 100px;
+    padding-left: 300px;
     /* background: grey; */
 }
 
@@ -53,10 +53,12 @@ h1 {
 }
 
 .message {
-    font-size: 20px;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #c0392b;
     background: #e8cece;
     visibility: hidden;
     padding: 20px;
-    margin-top: 5px;
+    margin-top: 50px;
+    border-radius: 10px; /* rounds out the edges */
 }
