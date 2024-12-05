@@ -48,7 +48,8 @@ h1 {
 
 .day:hover {
     background: #820a1c;
-    cursor: default;
+    cursor:pointer;
+    transform: scale(1.25); /* zooms in */
 }
 
 .message {
